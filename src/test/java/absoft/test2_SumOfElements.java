@@ -7,6 +7,15 @@ package absoft;
 P.S. Price может быть как целым так и дробным числом. (e.g. 20,99)
  */
 
-public class test2_SumOfElements {
+import java.util.Scanner;
 
+public class test2_SumOfElements {
+    public static void main (String [] args ) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your price:");
+        double price = sc.nextDouble();
+        System.out.println("Enter your qty:");
+        int qty = sc.nextInt();
+        System.out.println("Total: " + price*qty);
+    }
 }
