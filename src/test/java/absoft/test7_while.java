@@ -5,5 +5,15 @@ package absoft;
  */
 
 public class test7_while {
+    public static void main (String [] args){
+        int x = 1;
+        while (x < 11) {
+            if (x == 2 || x == 6 || x == 10) {
+                System.out.println(x + " - some cool text");
+            } else {
+                System.out.println(x);
+            } x++;
+        }
+    }
 
 }
