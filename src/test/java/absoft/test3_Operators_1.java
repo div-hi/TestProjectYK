@@ -7,6 +7,20 @@ package absoft;
 Если возраст больше 40 лет - вывести сообщение "Группа 3"
  */
 
+import java.util.Scanner;
+
 public class test3_Operators_1 {
+    public static void main (String [] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите ваш возраст:");
+        int age = sc.nextInt();
+        if (age < 21) {
+            System.out.println("Группа 1");
+        } else if (age <= 40){
+            System.out.println("Группа 2");
+        } else {
+            System.out.println("Группа 3");
+        }
+    }
 
 }
