@@ -13,6 +13,7 @@ Note3: класс откуда будет раниться тест, долже�
  */
 
 public class test13_overall {
-
-
+    public static void main(String [] args) {
+        Program.getProducts();
+    }
 }
